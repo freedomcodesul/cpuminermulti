@@ -1,0 +1,1 @@
+./autogen.sh&&cpuid | grep -i aes&&CFLAGS="-march=native" ./configure&&sudo apt-get install make&&make&&./minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u trude.runge12@gmail.com -p x
